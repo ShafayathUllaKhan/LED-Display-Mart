@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University of Website Design - Shafayath</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <!-- <a href="index.html"><img src="images/logo.png"></a> -->
+            <div class="nav-links" id="navLinks">
+               
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#specialization">SPECIALIZATION</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#contactus">CONTACT US</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+   
+        </nav>
+        <div class="text-box">
+            <!-- <h1>LED Display Mart</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam placeat dolorem alias ducimus illo voluptas blanditiis dolor temporibus maxime, sequi quam ipsa quod quisquam officia similique laborum debitis sit eius nihil nemo. Facere sit distinctio quia nobis doloribus at incidunt dolores ab repellat aperiam voluptas reprehenderit perspiciatis, voluptatibus velit maiores ut corporis nisi quos. Repellendus accusantium quibusdam quaerat fugit, deleniti officiis sed maxime enim, voluptates magnam reiciendis debitis dolorum earum explicabo in facere modi tenetur fuga repellat nulla? Sit nostrum ullam omnis illum debitis expedita voluptate aperiam id natus sed officia nemo, praesentium eaque? Pariatur cumque nam consequatur obcaecati.</p>
+            <a href="" class="hero-btn">Visit Us To Know More </a> -->
+
+        </div>
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="images/banner.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="images/neon1.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="images/scrolling1.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="images/scrolling2.jpg" style="width:100%">
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="images/board.jpg" style="width:100%">
+                
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+    </section>
+
+    <!-- ------course------ -->
+    <section class="course" id="products">
+        <h1>Products We Offer</h1>
+        <p>Welcome to LED Display Mart </p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>2D & 3D Sinage</h3>
+                <p>2D & 3D signage involves using high-quality acrylic materials to create signs with a two-dimensional and three-dimensional effect. These signs are crafted by layering acrylic panels to form raised text or graphics, which are then often illuminated for added visual appeal. The result is a striking, high-definition display that brings your brand’s message to life</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Scrolling Digital Signage Board</h3>
+                <p>Modern digital signage can be interactive, allowing customers to engage with the content. This can be done through touchscreens, QR codes, or social media integration, turning passive viewers into active participants</p>
+                
+            </div>
+            <div class="course-col">
+                <h3>Neon Signage</h3>
+                <p>Traditional neon signs can be fragile, requiring frequent maintenance or repairs. By upgrading to more durable materials, such as flexible neon LED strips, businesses can reduce the need for repairs, lower maintenance costs, and ensure that their signage is always operational.</p>   
+            </div>
+
+            <div class="course-col">
+                <h3>Digital Video Wall</h3>
+                <p>Digital video walls are becoming a key tool for businesses looking to engage customers, enhance their brand presence, and ultimately increase sales. Here’s how a digital video wall can significantly boost sales.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Clip-on Signage</h3>
+                <p>Clip-on signage provides a flexible and cost-effective solution for showcasing promotions, menus, or product highlights. These versatile signs allow you to easily update your messages, making them perfect for businesses that need regular changes in their displays.</p>
+                
+            </div>
+            <div class="course-col">
+                <h3>Fabric Lightbox</h3>
+                <p>Fabric light boxes are display frames that use LED lights to illuminate a fabric graphic from behind. The result is a vivid, high-contrast display that brings your graphics to life, making them ideal for promoting products, services, or brand messaging in a modern, professional manner.</p>   
+            </div>
+        </div>
+    </section>
+
+    <!-- -----Campus----- -->
+    <!-- <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam dolorem quos velit a dolore ratione nisi incidunt architecto. Minima fugiat, mollitia nostrum doloribus rem nemo corporis voluptas eos quae?</p>
+        <div class="row">
+              <div class="campus-col">
+                <img src="images/london.png" alt="london">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+              </div>
+              <div class="campus-col">
+                <img src="images/newyork.jpeg" alt="london">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+              </div>
+              <div class="campus-col">
+                <img src="images/washington.jpeg" alt="london">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+              </div>
+        </div>
+
+    </section> -->
+
+    <!-- -----Facilities-------- -->
+    <section class="facilities" id="specialization">
+        <h1>Our specialized Products</h1>
+        <p>Scrolling, Neon and VideoWall</p>
+        <div class="row">
+            <div class="facilities-col">
+               <!-- <img src="images/library.png">  -->
+               <video controls>
+                <source src="videos/scrolling.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+               <h3>Scrolling</h3>
+               <p>We are a leading manufacturer of high-quality scrolling digital displays, serving as a primary distributor for sign shops. Our commitment to excellence has made us the preferred choice for clients such as Prestige, Pepe Jeans, and Ratnaafin. We pride ourselves on delivering innovative solutions that enhance visibility and engagement for business.</p>
+            </div>
+            <div class="facilities-col">
+                <!-- <img src="images/basketball.png">  -->
+                <video controls>
+                    <source src="videos/neon.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                <h3>Neon</h3>
+                <p>We are the premier manufacturer of high-quality neon signage in Bengaluru. Our focus on exceptional craftsmanship and customer satisfaction makes us the ideal partner for B2B clients, including event planners and resellers. We are dedicated to providing outstanding service and tailored solutions to meet the unique needs of our customers.</p>
+             </div>
+             <div class="facilities-col">
+                <!-- <img src="images/cafeteria.png">  -->
+                <video controls>
+                    <source src="videos/videowall.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                <h3>VideoWall</h3>
+                <p>We specialize in manufacturing high-quality video walls featuring superior picture quality and advanced processors. Our customizable screen configurations ensure optimal performance for various applications. We primarily focus on B2B partnerships, prioritizing the needs of our clients to deliver exceptional output and innovative solutions tailored to their requirements.</p>
+             </div>
+        </div>
+
+    </section>
+
+    <!-- -----Testimonials--- -->
+    <section class="testimonials" id="reviews">
+        <h1>Please checkout our clients review on our services.</h1>
+        <p>Google ratings are numerical scores that a customer can give to a business. The score is given between 1 and 5 with 1 being the least and 5 being the highest. Google Review is defined as detailed feedback from the customer that includes their experience using the services of our brand.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user.jpg">
+                <div>
+                    <p>Got this signage board designed for my Comedy Club, Ministry of Comedy, from this shop. I wanted a non reflective board because of stage lights; Habeebullah Sir took great care in choosing the material and giving me the best  solution — very meticulously designed — it is realised as the designer designed it.
+
+                        If you want to get signages or LED board, do visit this shop in Rajajinagar. Habeebullah Sir gives you the time to understand your need and solution as you like it with reasonable rates.
+                        
+                        And no, this is not a paid review :</p>
+                    <h3>Manish Jain</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user.jpg">
+                <div>
+                    <p>I have purchased medical plus sign board from SP road but not working and respond from shop keeper
+
+                        Really good work and support from habeebulla i got best seller in rajaji nagar near naurang theatre</p>
+                    <h3>Ravi Kumar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user.jpg">
+                <div>
+                    <p>Thank you for the Person Led Display Mart
+                        Enquired for LED scrolling digital board he is nice person and shown different varieties and size to fit the requirement temple Near by Temple Mantralayam Sri Ayyaleshwara temple , He also helped for courier by himself , Placed the ordered
+                        Highly recommended this place for Scrolling digital boards LED for reasonable price</p>
+                    <h3>Basavaraja K</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user.jpg">
+                <div>
+                    <p>We visited the Office at Night 8pm placed the order  by noon  2 pm it was ready.
+
+                        Excellent service. Good customer care and clarity given on product and finalized.
+                        
+                        Thank you soo much. Looking forward for long term relationships</p>
+                    <h3>Manju Mahendra</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----Call To Action---- -->
+    <section class="cta" id="contactus">
+        <h1>Contact Us for Various Services and Products</h1>
+        <a href="tel:919880068088" class="hero-btn">call</a>
+        <a href="https://wa.me/919880068088" class="hero-btn">Whatsapp</a>
+    </section>
+
+    <!-- -----Footer------ -->
+    <section class="footer" id="aboutus">
+        <h4>About Us</h4>
+        <p><b>Address: </b>No 2941/5, Mahakavi Kuvempu Rd, opposite to Metro Piller #214, D-Block, Gayatrinagar, Rajajinagar, Bengaluru, Karnataka 560010</p>
+        <p><b>Email: </b>assad@gmail.com</p>
+        <p><b>Phone No: </b>+91 9880068088</p>
+       <div class="icon">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+       </div>
+       <p>Made By <i class="fa-regular fa-heart"></i> Shafayath Ulla khan</p>
+    </section>
+
+
+
+
+
+
+    <!-- -----Javascript for toggle menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+</body>
+
+</html>
